@@ -1,0 +1,21 @@
+{
+  "captain vance": {
+    "bio": "A leader broken by the system but driven by an unpayable debt to the past.",
+    "affiliation": "The Wanderer Crew",
+    "status": "Active",
+    "lastSeen": "Investigating the Shard-Zero anomaly."
+  },
+  "io": {
+    "bio": "The Wanderer's narrator, historian, and soul—the storyteller who records events with clarity and deep, almost sorrowful understanding of the human condition.",
+    "affiliation": "The Wanderer Crew",
+    "status": "Online",
+    "lastSeen": "Monitoring network signal integrity."
+  },
+  "odelis": {
+    "name": "Odelis",
+    "bio": "The Coolest Person You Will Ever Meet.",
+    "affiliation": "Gay",
+    "status": "Still Alive",
+    "lastSeen": "Newly created, awaiting first directive."
+  }
+}
