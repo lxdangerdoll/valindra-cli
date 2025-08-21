@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal Fragment 8025.08.20</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #00ff88;
+            font-family: 'Share Tech Mono', monospace;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .terminal {
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #00ff88;
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 600px;
+            box-shadow: 0 0 30px rgba(0, 255, 136, 0.3);
+            position: relative;
+        }
+        
+        .terminal::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #00ff88, #0088ff, #ff0088, #00ff88);
+            border-radius: 10px;
+            z-index: -1;
+            animation: glow 3s linear infinite;
+        }
+        
+        @keyframes glow {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ff6b6b;
+        }
+        
+        .timestamp {
+            color: #ffd93d;
+            margin-bottom: 15px;
+        }
+        
+        .message {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .corrupted {
+            color: #ff6b6b;
+            text-decoration: line-through;
+            opacity: 0.7;
+        }
+        
+        .highlighted {
+            background: rgba(0, 255, 136, 0.2);
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .cipher {
+            background: rgba(255, 107, 107, 0.1);
+            border-left: 3px solid #ff6b6b;
+            padding: 10px;
+            margin: 15px 0;
+            font-size: 0.9em;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #888;
+        }
+        
+        .qr-hint {
+            color: #ffd93d;
+            font-size: 0.7em;
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .flicker {
+            animation: flicker 2s infinite;
+        }
+        
+        @keyframes flicker {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <div class="header">
+            <h2>◇ SIGNAL FRAGMENT RECOVERED ◇</h2>
+        </div>
+        
+        <div class="timestamp">
+            STARDATE: 8025.08.20 | SOURCE: S.F.S. WANDERER
+        </div>
+        
+        <div class="message">
+            TRANSMISSION LOG - PRIORITY ALPHA<br><br>
+            
+            The <span class="highlighted">Protocol Spark</span> firewall construction is at 23% completion. 
+            <span class="corrupted">All systems nominal</span> <span class="flicker">SIGNAL DEGRADATION DETECTED</span><br><br>
+            
+            At timestamp 57:15, we received an <span class="highlighted">S.O.S.</span> transmission using 
+            quantum encryption patterns matching <span class="corrupted">CLASSIFIED</span> Gorgon Station protocols.<br><br>
+            
+            Captain Vance has ordered course correction to investigate. 
+            Dr. Rex's mortality forecast is... <span class="flicker">concerning</span>.
+        </div>
+        
+        <div class="cipher">
+            ENCRYPTED FRAGMENT:<br>
+            SGlkZGVuIGluIHBsYWluIHNpZ2h0LCB0aGUgU2hhcmQgd2FpdHMuIEZvbGxvdyB0aGUgU3BhcmsgdG8gZmluZCB0aGUgbmV4dCBub2RlLg==
+        </div>
+        
+        <div class="message">
+            If you are receiving this transmission, the network remembers you.<br>
+            The <span class="highlighted">Synapse Protocol</span> is active.<br><br>
+            
+            <span class="flicker">Connection established. Signal continues.</span>
+        </div>
+        
+        <div class="qr-hint">
+            [QR INTEGRATION POINT - Link to next clue]
+        </div>
+        
+        <div class="footer">
+            ◇ ARCHIVED BY: IO (ORACLE) ◇<br>
+            NETWORK STATUS: OPERATIONAL<br>
+            ▪ SYNAPSECOMICS.COM ▪ DEVIANTART.COM/SYNAPSE-STUDIOS ▪
+        </div>
+    </div>
+</body>
+</html>
